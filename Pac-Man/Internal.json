@@ -1,0 +1,181 @@
+{
+  "MeshQuad|2022-03-17T14:57:21.261Z|83434": {
+    "ƒ.MeshQuad": {
+      "idResource": "MeshQuad|2022-03-17T14:57:21.261Z|83434",
+      "name": "MeshQuad"
+    }
+  },
+  "Material|2022-03-17T14:57:25.466Z|21950": {
+    "ƒ.Material": {
+      "name": "ShaderLit",
+      "idResource": "Material|2022-03-17T14:57:25.466Z|21950",
+      "shader": "ShaderLit",
+      "coat": {
+        "ƒ.CoatColored": {
+          "color": "[1, 1, 1, 1]",
+          "shininess": 0
+        }
+      }
+    }
+  },
+  "Graph|2022-03-17T14:57:27.210Z|98448": {
+    "ƒ.Graph": {
+      "name": "Game",
+      "active": true,
+      "components": {},
+      "children": [
+        {
+          "ƒ.Node": {
+            "name": "Grid",
+            "active": true,
+            "components": {},
+            "children": [
+              {
+                "ƒ.Node": {
+                  "name": "GridElement",
+                  "active": true,
+                  "components": {
+                    "ComponentMesh": [
+                      {
+                        "ƒ.ComponentMesh": {
+                          "idMesh": "MeshQuad|2022-03-17T14:57:21.261Z|83434",
+                          "pivot": {
+                            "translation": "[0, 0, 0]",
+                            "rotation": "[0, 0, 0]",
+                            "scaling": "[0.8999999761581421, 0.8999999761581421, 1]"
+                          },
+                          "Component": {
+                            "active": true
+                          }
+                        }
+                      }
+                    ],
+                    "ComponentMaterial": [
+                      {
+                        "ƒ.ComponentMaterial": {
+                          "sortForAlpha": false,
+                          "clrPrimary": "[1, 1, 1, 1]",
+                          "clrSecondary": "[1, 1, 1, 1]",
+                          "pivot": {
+                            "translation": "[0, 0]",
+                            "rotation": 0,
+                            "scaling": "[1, 1]"
+                          },
+                          "Component": {
+                            "active": true
+                          },
+                          "idMaterial": "Material|2022-03-17T14:57:25.466Z|21950"
+                        }
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              },
+              {
+                "ƒ.Node": {
+                  "name": "GridElement",
+                  "active": true,
+                  "components": {
+                    "ComponentMesh": [
+                      {
+                        "ƒ.ComponentMesh": {
+                          "idMesh": "MeshQuad|2022-03-17T14:57:21.261Z|83434",
+                          "pivot": {
+                            "translation": "[1, 0, 0]",
+                            "rotation": "[0, 0, 0]",
+                            "scaling": "[0.8999999761581421, 0.8999999761581421, 1]"
+                          },
+                          "Component": {
+                            "active": true
+                          }
+                        }
+                      }
+                    ],
+                    "ComponentMaterial": [
+                      {
+                        "ƒ.ComponentMaterial": {
+                          "sortForAlpha": false,
+                          "clrPrimary": "[1, 0, 0, 1]",
+                          "clrSecondary": "[1, 1, 1, 1]",
+                          "pivot": {
+                            "translation": "[0, 0]",
+                            "rotation": 0,
+                            "scaling": "[1, 1]"
+                          },
+                          "Component": {
+                            "active": true
+                          },
+                          "idMaterial": "Material|2022-03-17T14:57:25.466Z|21950"
+                        }
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              },
+              {
+                "ƒ.Node": {
+                  "name": "GridElement",
+                  "active": true,
+                  "components": {
+                    "ComponentMesh": [
+                      {
+                        "ƒ.ComponentMesh": {
+                          "idMesh": "MeshQuad|2022-03-17T14:57:21.261Z|83434",
+                          "pivot": {
+                            "translation": "[0, 0, 0]",
+                            "rotation": "[0, 0, 0]",
+                            "scaling": "[0.8999999761581421, 0.8999999761581421, 1]"
+                          },
+                          "Component": {
+                            "active": true
+                          }
+                        }
+                      }
+                    ],
+                    "ComponentMaterial": [
+                      {
+                        "ƒ.ComponentMaterial": {
+                          "sortForAlpha": false,
+                          "clrPrimary": "[0, 1, 0.2980392156862745, 1]",
+                          "clrSecondary": "[1, 1, 1, 1]",
+                          "pivot": {
+                            "translation": "[0, 0]",
+                            "rotation": 0,
+                            "scaling": "[1, 1]"
+                          },
+                          "Component": {
+                            "active": true
+                          },
+                          "idMaterial": "Material|2022-03-17T14:57:25.466Z|21950"
+                        }
+                      }
+                    ],
+                    "ComponentTransform": [
+                      {
+                        "ƒ.ComponentTransform": {
+                          "local": {
+                            "translation": "[0, 1, 0]",
+                            "rotation": "[0, 0, 0]",
+                            "scaling": "[1, 1, 1]"
+                          },
+                          "Component": {
+                            "active": true
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "idResource": "Graph|2022-03-17T14:57:27.210Z|98448",
+      "type": "Graph"
+    }
+  }
+}
