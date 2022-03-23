@@ -16,8 +16,8 @@ namespace Script {
     console.log(pacman);
 
     ƒ.Loop.addEventListener(ƒ.EVENT.LOOP_FRAME, update);
-    ƒ.Loop.start(ƒ.LOOP_MODE.TIME_REAL, 1); // refresh time = 1 , change this if u need higher refresh rate
-    // ƒ.Loop.start();  // start the game loop to continously draw the viewport, update the audiosystem and drive the physics i/a
+    // ƒ.Loop.start(ƒ.LOOP_MODE.TIME_REAL, 1); // refresh time = 1 , change this if u need higher refresh rate
+    ƒ.Loop.start();  // start the game loop to continously draw the viewport, update the audiosystem and drive the physics i/a
     
   }
 
